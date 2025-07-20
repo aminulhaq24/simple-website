@@ -1,0 +1,55 @@
+    #navbarNav ul li a {
+            margin-right: 35px;
+
+        }
+
+        .navbar-brand img {
+            height: 80px;
+            background: none;
+
+        }
+
+        .navbar {
+            height: 70px;
+        }
+
+        .custom-toggler {
+            border: none;
+            font-size: 22px;
+            background: none;
+        }
+
+        .offcanvas {
+            max-width: 80%;
+            font-size: 20px;
+        }
+
+        .offcanvas.offcanvas-end {
+            top: 71px;
+            background-color: rgb(214, 239, 245);
+        }
+
+        .banner {
+
+            background-color: antiquewhite;
+            padding: 120px 0;
+        }
+
+
+        .carousel-item img {
+            height: 700px;
+            /* Ya jitni aapko chahiye */
+            object-fit: cover;
+            /* Image ko crop karega without stretching */
+
+        }
+
+        @media only screen and (max-width: 600px) {
+            .carousel-item img {
+                height: 400px;
+            }
+
+            .banner {
+                padding: 50px 20px;
+            }
+        }
